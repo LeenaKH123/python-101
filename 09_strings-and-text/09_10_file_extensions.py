@@ -6,8 +6,11 @@ file_1 = "operators.pdf"
 file_2 = "snowfall.jpg"
 file_3 = "uncle-joes-wedding.doc"
 file_4 = "invitation.pdf"
-file1_resu1t = file_1.split(".")[-1]
-file2_result = file_2.split(".")[-1]
-file3_result = file_3.split(".")[-1]
-file4_result = file_4.split(".").[-1]
-files = [file1_result, file2_result, file3_result, file4_result]
+# file1_resu1t = file_1.split(".")[-1]
+# file2_result = file_2.split(".")[-1]
+# file3_result = file_3.split(".")[-1]
+# file4_result = file_4.split(".").[-1]
+files = [file_1, file_2, file_3, file_4]
+for char in files:
+    if char.split(".")[-1] == "pdf":
+        print("its a pdf file", char)
