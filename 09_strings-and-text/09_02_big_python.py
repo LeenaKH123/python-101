@@ -8,3 +8,6 @@
 #     P         Y         T      H    H    O   O   N    N  N
 #     P         Y         T      H    H     O O    N     N N
 #     P         Y         T      H    H      O     N       N
+print(
+    """PPPP   Y     Y  TTTTTTTTT  H    H      O     N       N\nP   P   Y   Y       T      H    H     O O    N N     N\nP   P    Y Y        T      H    H    O   O   N  N    N\nPPPP      Y         T      HHHHHH    O   O   N   N   N\nP         Y         T      H    H    O   O   N    N  N\nP         Y         T      H    H     O O    N     N N\nP         Y         T      H    H      O     N       N """
+)
