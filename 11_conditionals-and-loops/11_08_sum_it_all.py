@@ -6,3 +6,8 @@
 
 start = 1
 stop = 100
+x = range(1, 100)
+for n in x:
+    n += n
+  print(n)
+
