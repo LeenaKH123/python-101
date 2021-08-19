@@ -15,11 +15,16 @@ test_list = [
     longest_finnish_word,
     strong_password,
 ]
-max_length = -1
+# max_length = -1
+counter = 0
+result = ""
 for char in test_list:
-    if len(char) > max_length:
-        res = char
-print("longest string is : " + res)
+    counter += 1
+    if test_list[counter] > test_list[counter + 1]:
+        result = test_list[counter]
+        counter += 1
+
+print(result)
 print(
     "the length of the longest string is",
     max(
