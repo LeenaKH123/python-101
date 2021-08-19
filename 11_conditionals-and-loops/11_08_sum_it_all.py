@@ -6,8 +6,8 @@
 
 start = 1
 stop = 100
-x = range(1, 100)
+x = range(101)
+result = 0
 for n in x:
-    n += n
-  print(n)
-
+    result = result + n
+print(result)
