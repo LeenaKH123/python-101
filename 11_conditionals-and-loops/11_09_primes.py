@@ -1,6 +1,11 @@
 # Print out every prime number between 1 and 1000.
-for y in range(1, 10):
-    if y % 2 == 0:
-        print(y, "is not prime")
-    else:
-        print(y, "is prime")
+lower = 1
+upper = 10
+print(1)
+for num in range(lower, upper + 1):
+    if num > 1:
+        for i in range(2, num):
+            if (num % i) == 0:
+                break
+        else:
+            print(num)
