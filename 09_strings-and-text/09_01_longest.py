@@ -16,15 +16,11 @@ test_list = [
     strong_password,
 ]
 # max_length = -1
-counter = 0
-result = ""
+max_length = ""
 for char in test_list:
-    counter += 1
-    if test_list[counter] > test_list[counter + 1]:
-        result = test_list[counter]
-        counter += 1
-
-print(result)
+    if len(char) > len(max_length):
+        max_length = char
+print(max_length)
 print(
     "the length of the longest string is",
     max(
